@@ -41,6 +41,9 @@ android {
 
 dependencies {
     implementation("androidx.compose.material:material-icons-extended")
+    implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation("com.google.mlkit:text-recognition:16.0.1")
+    implementation("androidx.core:core-ktx:1.12.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
